@@ -1,0 +1,9 @@
+services:
+  php:
+    image: php:8.4.9RC1-apache-bullseye
+
+    ports:
+      - 80:80
+
+    volumes:
+      - ./www:/var/www/html
